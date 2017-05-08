@@ -1,0 +1,6 @@
+web:
+  build: ./
+  volumes:
+    - .:/opt/prediction  
+  ports:
+    - "9001:80"

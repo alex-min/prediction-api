@@ -1,0 +1,12 @@
+default: &default
+  sentence: <%= ENV.fetch('PREDICTION_SENTENCE', 'defeats') %>
+  max_cycle: <%= ENV.fetch('PREDICTION_MAX_CYCLE', '20').to_i %>
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
