@@ -64,3 +64,7 @@ Because the algorithm is not guaranteed to generate a result, a ```PREDICTION_MA
 
 The project is using the [standard Rails folder architecture](https://www.tutorialspoint.com/ruby-on-rails/rails-directory-structure.htm). The api endpoint is located in controllers/api and new api endpoints can be added under the [config/routes.yml](config/routes.yml) files using the ```:api``` namespace.
 
+
+## API Client
+
+A [command line client](https://github.com/alex-min/prediction-api-client) built in Python can also be used to access the API.
